@@ -1,0 +1,34 @@
+.login {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto; /* Aligner les éléments à l'extrémité droite */
+}
+
+.login li {
+    margin-left: 50px; /* Ajustez selon vos besoins */
+}
+
+.cart-option {
+    margin-left: 0px; /* Ajuster la marge entre "Login" et "Registre" */
+}
+
+.cart-option a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px; /* Augmenter la taille de la police */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Ajouter une transition de couleur */
+    padding: 15px 30px; /* Ajuster le rembourrage pour rendre le bouton plus grand */
+    border-radius: 30px; /* Arrondir les coins */
+    background-color: #295064; /* Couleur de fond par défaut */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajouter une ombre */
+}
+
+.cart-option a:hover {
+    background-color: #fff; /* Fond blanc lorsqu'on passe la souris dessus */
+    color: #000; /* Texte noir lorsqu'on passe la souris dessus */
+}
+.Registre:hover {
+    color: rgb(0, 0, 0); /* Couleur rouge lorsque survolé */
+}

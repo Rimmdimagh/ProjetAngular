@@ -1,0 +1,43 @@
+
+.btn-primary:hover {
+    background-color: #fff; /* Fond blanc lorsqu'on passe la souris dessus */
+    color: #ffffff; /* Texte noir lorsqu'on passe la souris dessus */
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 10;
+}
+
+.carousel-caption .col-lg-5 {
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+}
+
+.carousel-caption p {
+    color: #fff;
+}
+
+.carousel-caption button {
+    background-color: #295064;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.carousel-caption button:hover {
+    background-color: #fff;
+    color: #295064;
+}
